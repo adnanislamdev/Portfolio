@@ -13,10 +13,10 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6">
-            Hi, I'm{' '}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Hi, I'm Adnan
+            {/* <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Your Name
-            </span>
+            </span> */}
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Full Stack Developer passionate about creating beautiful, functional web experiences
@@ -92,7 +92,7 @@ const AboutSection = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Me</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm a passionate developer with 3+ years of experience building modern web applications.
+            I&apos;m a passionate developer with 3+ years of experience building modern web applications.
             I love creating user-friendly interfaces and solving complex problems with elegant solutions.
           </p>
         </motion.div>
@@ -107,11 +107,11 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-6">My Journey</h3>
             <p className="text-gray-600 mb-6">
               Started my coding journey in college and fell in love with the endless possibilities
-              of creating digital experiences. I've worked on various projects from simple websites
+              of creating digital experiences. I&apos;ve worked on various projects from simple websites
               to complex web applications.
             </p>
             <p className="text-gray-600 mb-6">
-              I'm always eager to learn new technologies and take on challenging projects that
+              I&apos;m always eager to learn new technologies and take on challenging projects that
               push me to grow as a developer.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -253,7 +253,7 @@ const ContactSection = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Get In Touch</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. Let's connect!
+            I&apos;m always interested in new opportunities and exciting projects. Let&apos;s connect!
           </p>
         </motion.div>
 
@@ -264,19 +264,19 @@ const ContactSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Let's Talk</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-6">Let&apos;s Talk</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <Mail className="text-blue-600" size={24} />
-                <span className="text-gray-600">your.email@example.com</span>
+                <span className="text-gray-600">adnanislamdev.com</span>
               </div>
               <div className="flex items-center gap-4">
                 <Github className="text-blue-600" size={24} />
-                <span className="text-gray-600">github.com/yourusername</span>
+                <span className="text-gray-600">github.com/adnanislamdev</span>
               </div>
               <div className="flex items-center gap-4">
                 <Linkedin className="text-blue-600" size={24} />
-                <span className="text-gray-600">linkedin.com/in/yourprofile</span>
+                <span className="text-gray-600">linkedin.com/in/adnanislam-28</span>
               </div>
             </div>
           </motion.div>
