@@ -27,6 +27,7 @@ const Navigation = () => {
   const navItems = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -56,7 +57,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold text-gray-800"
           >
-            Portfolio
+            Adnan Islam
           </motion.div>
 
           {/* Desktop Navigation */}

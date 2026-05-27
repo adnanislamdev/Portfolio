@@ -1,6 +1,12 @@
 import Navigation from '@/components/Navigation';
 import DynamicBackground from '@/components/DynamicBackground';
-import { HeroSection, AboutSection, ProjectsSection, ContactSection } from '@/components/Sections';
+import {
+  HeroSection,
+  AboutSection,
+  ExperienceSection,
+  ProjectsSection,
+  ContactSection,
+} from '@/components/Sections';
 
 export default function Home() {
   return (
@@ -9,6 +15,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <AboutSection />
+      <ExperienceSection />
       <ProjectsSection />
       <ContactSection />
     </main>
